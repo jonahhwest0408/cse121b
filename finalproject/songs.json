@@ -1,0 +1,14 @@
+[
+    {
+        "title": "MJ2",
+        "artist": "Ketsa",
+        "source": "audio/song1.mp3",
+        "image": "images/pic1.jpg"
+    },
+    {
+        "title": "MJ3",
+        "artist": "Ketsa",
+        "source": "audio/song2.mp3",
+        "image": "images/pic2.png"
+    }
+]
