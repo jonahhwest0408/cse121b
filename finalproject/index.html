@@ -9,6 +9,9 @@
 </head>
 <body>
 <div class="container">
+    <div class="cover-art">
+        <img src="images/pic1.jpg" alt="" id="coverArt">
+    </div>
     <div class="music-player">
         <nav>
             <div class="circle">
@@ -24,10 +27,11 @@
         </audio>
         <input type="range" value="0" id="progress">
         <div class="controls">
-            <div><i class="fa-solid fa-backward"></i></div>
+            <div onclick="previousSong()"><i class="fa-solid fa-backward"></i></div>
             <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
             <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
         </div>
+        
         
     </div>
 </div>
